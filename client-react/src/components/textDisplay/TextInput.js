@@ -14,8 +14,15 @@ const TextInput = ({ enteredText }) => {
               enteredText(event.target.value);
             }}
           />
-          <Form.Text className="text-muted">
-            <p style={{ width: "50%", "text-align": "center" }}>
+          <Form.Text
+            className="text-muted"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <p style={{ width: "50%" }}>
               <b>Instructions: </b>
               <br />
               1. Type in the input field, your input is reflected in the grey
