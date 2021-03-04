@@ -9,6 +9,7 @@ const TextDisplay = () => {
   return (
     <>
       <TextOutput text={currentText} defaultText={defaultText} />
+      <br />
       <TextInput enteredText={setCurrentText} />
     </>
   );

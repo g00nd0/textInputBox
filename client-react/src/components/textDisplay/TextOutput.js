@@ -1,14 +1,6 @@
 import React from "react";
 
 const TextOutput = ({ text, defaultText }) => {
-  const renderDefaultText = (inputText) => {
-    return (
-      <p>
-        <b>{inputText}</b>
-      </p>
-    );
-  };
-
   const renderText = (inputText) => {
     let textColor;
     switch (true) {
@@ -19,13 +11,13 @@ const TextOutput = ({ text, defaultText }) => {
         textColor = "yellow";
         break;
       case inputText.length >= 8 && inputText.length < 13:
-        textColor = "black";
+        textColor = "blue";
         break;
       case inputText.length >= 13 && inputText.length < 16:
         textColor = "green";
         break;
       default:
-        textColor = "blue";
+        textColor = "black";
     }
 
     return (
@@ -35,6 +27,15 @@ const TextOutput = ({ text, defaultText }) => {
     );
   };
 
-  return <>{text === "" ? renderDefaultText(defaultText) : renderText(text)}</>;
+  return (
+    <div
+      style={{
+        border: "2px solid grey",
+        width: "70%",
+      }}
+    >
+      {text === "" ? renderText(defaultText) : renderText(text)}
+    </div>
+  );
 };
 export default TextOutput;
