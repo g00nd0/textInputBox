@@ -27,8 +27,11 @@ const TextInput = ({ enteredText }) => {
               <br />
               1. Type in the input field, your input is reflected in the grey
               box above the input field. <br />
+              <br />
               2. Text color will vary based on the length of input text, as
-              below: <br />
+              below:
+              <br />
+              <br />
               a. Less than 4 characters: <b style={{ color: "red" }}>
                 Red
               </b>{" "}
