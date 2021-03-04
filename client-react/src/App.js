@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
+import TextDisplay from "./components/textDisplay/TextDisplay";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
+      {/* <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,9 +18,11 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a> */}
-      </header>
-      <body className="body"></body>
+        </a>
+      </header> */}
+      <body className="body">
+        <TextDisplay />
+      </body>
     </div>
   );
 }
