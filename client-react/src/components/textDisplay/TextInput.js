@@ -4,7 +4,14 @@ import { Form } from "react-bootstrap";
 const TextInput = ({ enteredText }) => {
   return (
     <>
-      <Form>
+      <Form
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          width: "50%",
+        }}
+      >
         <Form.Group controlId="textInput">
           <Form.Label>Type Here:</Form.Label>
           <Form.Control
@@ -14,6 +21,7 @@ const TextInput = ({ enteredText }) => {
               enteredText(event.target.value);
             }}
           />
+          <br />
           <Form.Text
             className="text-muted"
             style={{
@@ -22,7 +30,7 @@ const TextInput = ({ enteredText }) => {
               alignItems: "center",
             }}
           >
-            <p style={{ width: "50%" }}>
+            <p style={{ width: "100%" }}>
               <b>Instructions: </b>
               <br />
               1. Type in the input field, your input is reflected in the grey
