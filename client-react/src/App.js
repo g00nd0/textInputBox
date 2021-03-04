@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import TextDisplay from "./components/textDisplay/TextDisplay";
 import "bootstrap/dist/css/bootstrap.min.css";

@@ -1,16 +1,16 @@
 # Text Input Box - Demo
 
-Text input box demo, done with ReactJS, using Create React App & React-Bootstrap
+Text input box demo, done with ReactJS, using Create React App, React-Bootstrap & [Random Color](https://www.npmjs.com/package/randomcolor)
 
 ## Instructions:
 
 1. Type in the input field, your input is reflected in the grey box above the input field.
-2. Text color will vary based on the length of input text, as below:
+2. Text color will vary everytime a change in input is registered (either by typing or deleting characters)
 
-- Less than 4 characters: Red
+<!-- - Less than 4 characters: Red
 - Between 4 to 7 characters: Yellow
 - Between 8 to 12 characters: Blue
-- More than 12 characters: Green
+- More than 12 characters: Green -->
 
 ## Installation & Setup Instructions
 
