@@ -160,18 +160,18 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-### react ###
-.DS_*
-**/*.backup.*
-**/*.back.*
+# ### react ###
+# .DS_*
+# **/*.backup.*
+# **/*.back.*
 
-node_modules
+# node_modules
 
-*.sublime*
+# *.sublime*
 
-psd
-thumb
-sketch
+# psd
+# thumb
+# sketch
 
 ### vscode ###
 .vscode/*
