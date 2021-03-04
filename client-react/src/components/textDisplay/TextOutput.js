@@ -29,7 +29,14 @@ const TextOutput = ({ text, defaultText }) => {
     // }
 
     return (
-      <p style={{ color: randomColor() }}>
+      <p
+        style={{
+          color: randomColor({
+            luminosity: "random",
+            hue: "random",
+          }),
+        }}
+      >
         <b>{inputText}</b>
       </p>
     );
