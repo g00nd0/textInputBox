@@ -40,16 +40,6 @@ const TextInput = ({ enteredText }) => {
               (either by typing or deleting characters)
               <br />
               <br />
-              {/* a. Less than 4 characters: <b style={{ color: "red" }}>
-                Red
-              </b>{" "}
-              <br />
-              b. Between 4 to 7 characters:{" "}
-              <b style={{ color: "yellow" }}>Yellow</b> <br />
-              c. Between 8 to 12 characters:{" "}
-              <b style={{ color: "blue" }}>Blue</b> <br />
-              d. More than 12 characters:{" "}
-              <b style={{ color: "green" }}>Green</b> */}
             </p>
           </Form.Text>
         </Form.Group>
